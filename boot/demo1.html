@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script>
+function myFunction() {
+    var x = document.getElementById("fname");
+    x.value = x.value.toUpperCase();
+}
+</script>
+
+
+</head>
+<body>
+
+<br>Exemples provenant de >>> https://www.w3schools.com/bootstrap/bootstrap_get_started.asp<br><br>
+<!--  Class alert de bootstrap  -->
+	
+	<div class="alert alert-success">
+  <strong>Success!</strong> Indicates a successful or positive action.
+</div>
+<!--  Class navbar de bootstrap  -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="demo2.html">Demo 2</a></li>
+      <li><a href="demo3.html">Demo 3</a></li>
+      <li><a href="#">Page X</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!--  Class conteneur de bootstrap  -->
+<!--  Met en usage la grille de bootstrap  -->
+
+<div class="container">
+  <h1>My First Bootstrap Page</h1>
+  <p>This part is inside a .container class.</p> 
+  
+  Enter your name: <input type="text" id="fname" onchange="myFunction()">
+<p>When you leave the input field, a function is triggered which transforms the input text to upper case.</p>
+  
+  <p>The .container class provides a responsive fixed width container.</p>           
+</div>
+
+</body>
+</html>
