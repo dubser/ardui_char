@@ -1,0 +1,12 @@
+
+    <h2>Affichage provenant de ListDb</h2>
+    
+    {% for z in qset %}
+    <li>{{z.id}} - - - {{z.nom}} - - -  {{z.desc}}</li>
+    {% endfor %}
+    
+<p></p>
+
+    {% for z in xset %}
+    <li>{{z.potid}} - - - {{z.fk_Variete.nom}}- - - {{z.fk_Variete.desc}}</li>
+    {% endfor %}

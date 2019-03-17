@@ -1,0 +1,15 @@
+
+    {% load static %}
+<link rel="stylesheet" type="text/css" href="{% static "dash/style.css" %}">
+
+    <h2>Affichage provenant de testSD</h2>
+    
+    <p>Et qui affiche une variable de contexte : {{toto}}</p>
+    <ul>
+      {% for key, value in context.items %} 
+      <li>{{key}} - {{value}}</li>
+      {% endfor %}
+    </ul>
+    
+
+
