@@ -10,3 +10,21 @@ Je décèle cependant quelques faiblesses et fragilités dont l'examen va me per
 1. Incompréhension de la technique de calibration avec l'application Android.
 2. Clignotement occasionnel de la LED rouge du Rpi
 3. Perte de connexion occasionnelle.
+
+
+# Debugging
+
+* L'application WebMin a été installée avec succès sur le Rpi à ma grande surprise. Ceci sera d'une grande utilité pour aider au diagnostic sur ce pc headless.
+* Le logging a été rendu possible dans view.pi de Django en utilisant:
+
+<blockquote>
+import syslog  
+  
+syslog.syslog("Message de test de Sdube")  
+</blockquote>  
+
+* Pour suivre en continu les inscription dans syslog la commande suivante est utile:  
+
+<blockquote>
+tail -f /var/log/syslog
+</blockquote> 
