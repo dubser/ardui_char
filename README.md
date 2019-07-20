@@ -11,6 +11,7 @@ Je décèle cependant quelques faiblesses et fragilités dont l'examen va me per
 1.1 Lorsqu'on se place sur l'écran de calibration la Cam prend une position y très haute.  
 1.2 La maj des params de calib ne semble pas fonctionner si on entre les donnees au clavier mais seulemnt avec les flèches  
 1.3 Les params sont tous sauvegardés lors de la validation dans le fichier config de server.  
+1.4 Le bouton central de l'écran principal semble amener la cam a sa position default des offsets.  
 2. Clignotement occasionnel de la LED rouge du Rpi
 3. Perte de connexion occasionnelle.
 
