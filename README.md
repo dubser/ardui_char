@@ -7,7 +7,10 @@ Je viens tout juste de terminer la mise en route de ce Kit, que j'ai interfacé 
 # Notes
 
 Je décèle cependant quelques faiblesses et fragilités dont l'examen va me permettre d'approfondir les technologies en présence:
-1. Incompréhension de la technique de calibration avec l'application Android.
+1. Incompréhension de la technique de calibration avec l'application Android.    
+1.1 Lorsqu'on se place sur l'écran de calibration la Cam prend une position y très haute.  
+1.2 La maj des params de calib ne semble pas fonctionner si on entre les donnees au clavier mais seulemnt avec les flèches  
+1.3 Les params sont tous sauvegardés lors de la validation dans le fichier config de server.  
 2. Clignotement occasionnel de la LED rouge du Rpi
 3. Perte de connexion occasionnelle.
 
