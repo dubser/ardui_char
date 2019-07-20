@@ -6,3 +6,7 @@ Je viens tout juste de terminer la mise en route de ce Kit, que j'ai interfacé 
 
 # Notes
 
+Je décèle cependant quelques faiblesses et fragilités dont l'examen va me permettre d'approfondir les technologies en présence:
+1. Incompréhension de la technique de calibration avec l'application Android.
+2. Clignotement occasionnel de la LED rouge du Rpi
+3. Perte de connexion occasionnelle.
